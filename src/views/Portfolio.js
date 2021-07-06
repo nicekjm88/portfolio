@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader'
 import PostCategoriesNav from '../components/PostCategoriesNav'
 import PostSection from '../components/PostSection'
 
-import './Blog.css'
+import './Portfolio.css'
 
 export default ({
   fields,
@@ -17,7 +17,7 @@ export default ({
   posts = _sortBy(posts, ['date']).reverse()
 
   return (
-    <main className="Blog">
+    <main className="Portfolio">
       <PageHeader
         title={title}
         subtitle={subtitle}

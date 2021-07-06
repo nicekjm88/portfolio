@@ -20,13 +20,13 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
       )}
 
       <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/blog/">
+        <Link className="SinglePost--BackButton" to="/portfolio/">
           <ChevronLeft /> BACK
         </Link>
         <div className="SinglePost--Content relative">
           <div className="SinglePost--Meta">
             {!!categories.length &&
-              categories.map(obj => (
+              categories.map((obj) => (
                 <span key={obj.category} className="SinglePost--Meta--Category">
                   {obj.category}
                 </span>
