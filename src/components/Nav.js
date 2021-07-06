@@ -6,21 +6,21 @@ import NavLink from './NavLink'
 import './Nav.css'
 
 export default ({ handlePopupOpen }) => (
-  <nav className='Nav'>
-    <div className='Nav--Container container'>
-      <Link to='/'>
+  <nav className="Nav">
+    <div className="Nav--Container container">
+      <Link to="/">
         <Logo />
       </Link>
-      <NavLink to='/' exact>
+      <NavLink to="/" exact>
         Home
       </NavLink>
-      <NavLink to='/about/' exact>
+      <NavLink to="/about/" exact>
         About
       </NavLink>
-      <NavLink to='/blog/' exact>
-        Blog
+      <NavLink to="/blog/" exact>
+        Portfolio
       </NavLink>
-      <NavLink to='/contact/' exact>
+      <NavLink to="/contact/" exact>
         Contact
       </NavLink>
     </div>
